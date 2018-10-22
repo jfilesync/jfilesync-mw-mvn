@@ -10,9 +10,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>net.jfilesync.jfsmw</groupId>
-  <artifactId>core-ui-impl</artifactId>
+  <artifactId>jfsmw-core-ui-api</artifactId>
 
-  <description>JfsMW Core UI Implementation Bundle</description>
+  <description>JfsMW Core UI API Bundle</description>
 
   <build>
     <plugins>

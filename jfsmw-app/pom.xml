@@ -18,22 +18,22 @@
   <dependencies>
     <dependency>
       <groupId>net.jfilesync.jfsmw</groupId>
-      <artifactId>core-api</artifactId>
+      <artifactId>jfsmw-core-api</artifactId>
       <version>0.0.2-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>net.jfilesync.jfsmw</groupId>
-      <artifactId>core-impl</artifactId>
+      <artifactId>jfsmw-core-impl</artifactId>
       <version>0.0.2-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>net.jfilesync.jfsmw</groupId>
-      <artifactId>core-ui-api</artifactId>
+      <artifactId>jfsmw-core-ui-api</artifactId>
       <version>0.0.2-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>net.jfilesync.jfsmw</groupId>
-      <artifactId>core-ui-impl</artifactId>
+      <artifactId>jfsmw-core-ui-impl</artifactId>
       <version>0.0.2-SNAPSHOT</version>
     </dependency>
     <dependency>

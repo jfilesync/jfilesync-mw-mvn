@@ -12,7 +12,6 @@ test-index: target/test-index.xml;name="jfsmw-app Test"
  osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.runtime)',\
  osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)'
 -runbundles: \
-	net.jfilesync.jfsmw.core-impl;version='[0.0.2,0.0.3)',\
 	org.apache.felix.gogo.command;version='[1.0.2,1.0.3)',\
 	org.apache.felix.gogo.runtime;version='[1.1.0,1.1.1)',\
 	org.apache.felix.gogo.shell;version='[1.1.0,1.1.1)',\
@@ -20,6 +19,7 @@ test-index: target/test-index.xml;name="jfsmw-app Test"
 	org.osgi.util.function;version='[1.1.0,1.1.1)',\
 	org.osgi.util.promise;version='[1.1.0,1.1.1)',\
 	org.osgi.util.pushstream;version='[1.0.0,1.0.1)',\
-	net.jfilesync.jfsmw.core-ui-impl;version='[0.0.2,0.0.3)',\
 	net.jfilesync.osgiuifx.osgiuifx-core-impl;version='[0.0.1,0.0.2)',\
-	net.jfilesync.osgiuifx.osgiuifx-core-javafx-initializer;version='[0.0.1,0.0.2)'
+	net.jfilesync.osgiuifx.osgiuifx-core-javafx-initializer;version='[0.0.1,0.0.2)',\
+	net.jfilesync.jfsmw.jfsmw-core-impl;version='[0.0.2,0.0.3)',\
+	net.jfilesync.jfsmw.jfsmw-core-ui-impl;version='[0.0.2,0.0.3)'

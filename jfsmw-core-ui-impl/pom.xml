@@ -10,10 +10,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>net.jfilesync.jfsmw</groupId>
-  <artifactId>core-api</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <artifactId>jfsmw-core-ui-impl</artifactId>
 
-  <description>The core-api API bundle - built using OSGi enRoute R7</description>
+  <description>JfsMW Core UI Implementation Bundle</description>
 
   <build>
     <plugins>
@@ -22,18 +21,8 @@
       <plugin>
         <groupId>biz.aQute.bnd</groupId>
         <artifactId>bnd-maven-plugin</artifactId>
-        <!--<configuration>-->
-          <!--<bnd><![CDATA[-->
-<!--Bundle-SymbolicName: ${project.groupId}.${project.artifactId}-->
-<!-- -sources: true-->
-<!-- -contract: *-->
- <!--]]></bnd>-->
-        <!--</configuration>-->
-      </plugin>
-      <plugin>
-        <groupId>biz.aQute.bnd</groupId>
-        <artifactId>bnd-baseline-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
+
 </project>
