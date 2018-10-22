@@ -10,11 +10,11 @@ It is inspired by [JFileSync](http://jfilesync.sourceforge.net/).
 
 ## Building
 
-    mvn clean
-    mvn -U -pl \!jfsmw-app verify
-    mvn install
-    mvn -pl jfsmw-app -am bnd-indexer:index bnd-indexer:index@test-index bnd-resolver:resolve
-    mvn package
+    ./mvnw clean
+    ./mvnw -U -pl \!jfsmw-app verify
+    ./mvnw install
+    ./mvnw -pl jfsmw-app -am bnd-indexer:index bnd-indexer:index@test-index bnd-resolver:resolve
+    ./mvnw package
 
 start the app:
     
