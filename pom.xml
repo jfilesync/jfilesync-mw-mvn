@@ -11,6 +11,11 @@
     <module>core-api</module>
     <module>core-impl</module>
     <module>jfsmw-app</module>
+    <module>core-ui-api</module>
+    <module>core-ui-impl</module>
+    <module>osgiuifx-core-api</module>
+    <module>osgiuifx-core-impl</module>
+    <module>osgiuifx-core-javafx-initializer</module>
   </modules>
   <packaging>pom</packaging>
 

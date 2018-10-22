@@ -27,6 +27,31 @@
       <version>0.0.2-SNAPSHOT</version>
     </dependency>
     <dependency>
+      <groupId>net.jfilesync.jfsmw</groupId>
+      <artifactId>core-ui-api</artifactId>
+      <version>0.0.2-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>net.jfilesync.jfsmw</groupId>
+      <artifactId>core-ui-impl</artifactId>
+      <version>0.0.2-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>net.jfilesync.osgiuifx</groupId>
+      <artifactId>osgiuifx-core-api</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>net.jfilesync.osgiuifx</groupId>
+      <artifactId>osgiuifx-core-impl</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>net.jfilesync.osgiuifx</groupId>
+      <artifactId>osgiuifx-core-javafx-initializer</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
       <groupId>org.apache.felix</groupId>
       <artifactId>org.apache.felix.framework</artifactId>
       <version>6.0.1</version>
