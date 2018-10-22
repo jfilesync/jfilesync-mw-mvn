@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>jfsmw</artifactId>
+    <groupId>net.jfilesync</groupId>
+    <version>0.0.2-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.jfilesync.jfsmw</groupId>
+  <artifactId>core-impl</artifactId>
+  <version>0.0.2-SNAPSHOT</version>
+
+  <description>The JfsMW Core Implementation Bundle</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>net.jfilesync.jfsmw</groupId>
+      <artifactId>core-api</artifactId>
+      <version>0.0.2-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.service.log</artifactId>
+      <version>1.4.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.service.component.annotations</artifactId>
+      <version>1.3.0</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!-- Expected to inherit configuration from a parent enRoute
+          pom. This includes -contract definitions and maven-jar-plugin setup -->
+      <plugin>
+        <groupId>biz.aQute.bnd</groupId>
+        <artifactId>bnd-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>

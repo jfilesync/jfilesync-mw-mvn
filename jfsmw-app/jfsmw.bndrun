@@ -1,0 +1,37 @@
+index: target/index.xml;name="jfsmw-app"
+
+-standalone: ${index}
+
+-runsystemcapabilities: ${native_capability}
+
+-resolve.effective: active
+
+-runee: JavaSE-1.8
+-runfw: org.apache.felix.framework;version='[6.0.1,6.0.1]'
+
+-runblacklist: bnd.identity;id='osgi.cmpn'
+
+-runsystempackages: \
+	javafx.application.Platform, \
+	javafx.application,\
+	javafx.scene,\
+	javafx.stage,\
+	javafx.scene.layout,\
+	javafx.event,\
+	javafx.collections,\
+	javafx.scene.control,\
+	javafx.scene.paint,\
+	javafx.scene.shape, \
+	javafx.fxml
+-runrequires: \
+	osgi.identity;filter:='(&(osgi.identity=net.jfilesync.jfsmw.core-impl)(version>=0.0.2))',\
+	osgi.identity;filter:='(&(osgi.identity=org.apache.felix.framework)(version>=6.0.0))',\
+	osgi.identity;filter:='(&(osgi.identity=org.osgi.service.log)(version>=1.4.0))',\
+	osgi.identity;filter:='(&(osgi.identity=org.apache.felix.gogo.runtime)(version>=1.1.0))'
+-runbundles: \
+	net.jfilesync.jfsmw.core-impl;version='[0.0.2,0.0.3)',\
+	org.osgi.service.log;version='[1.4.0,1.4.1)',\
+	org.osgi.util.function;version='[1.1.0,1.1.1)',\
+	org.osgi.util.promise;version='[1.1.0,1.1.1)',\
+	org.osgi.util.pushstream;version='[1.0.0,1.0.1)',\
+	org.apache.felix.gogo.runtime;version='[1.1.0,1.1.1)'
