@@ -6,3 +6,4 @@
 target/
 generated/
 .settings/
+.metadata/
